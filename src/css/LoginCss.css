@@ -1,0 +1,702 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+/* background-image: url('../pics/tmc18-anime-background-wallpaper-anime-images-in-high-quality.jpg'); */
+background-color: rgb(242, 244, 248);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family:Helvetica,Arial,sans-serif;
+font-weight: 300;
+
+  /* overflow: hidden; */
+
+}
+
+.showRow{
+  height: 100%;
+  width: 100%;
+}
+
+/* All about SIDEBAR */
+
+.sidebarmenu{
+  height: 100%;
+  position: fixed;
+  background-image: url('../pics/BLAVA.jpg');
+  background-size: 450px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding: 0px;
+
+}
+.sidebarfilter{
+/* position: fixed; */
+height: 100%;
+z-index: 2;
+background: #000;
+opacity: .8;
+/* width: 150px; */
+}
+
+
+
+
+
+.imgoverview{
+   height: 100%;
+  position: fixed;
+  background-image: url('../pics/app.jpg');
+  background-size: 450px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding: 0px;
+}
+
+.navbarWrapper{
+  padding-left:10%;
+  padding-right:5%;
+}
+.navbarLogo{
+  font-size: 20px;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  
+}
+.navbarCustomer{
+  font-size: 14px;
+  padding-left: 8%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  
+}
+.navbar{
+  font-size: 20px;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  
+}
+.fa-piggy-bank{
+  padding-right: 8%;
+}
+.fa-user-circle{
+  margin-right:10%;
+}
+.border-bottom1 {
+    border-bottom: 1px solid hsla(0,0%,100%,.3)!important;
+}
+.border-bottom2 {
+    border-bottom: 2px solid hsla(0,0%,100%,.3)!important;
+}
+
+.border-bottom3 {
+    border-bottom: 2px solid rgba(93, 83, 83, 0.177)!important;
+}
+ul li{
+  color:white;
+  width:10em;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-top: 7px;
+}
+
+.button1 {
+
+
+  display: inline-block; /* Inline elements with width and height. TL;DR they make the icon buttons stack from left-to-right instead of top-to-bottom */
+
+  position: relative; /* All 'absolute'ly positioned elements are relative to this one */
+
+  padding: 2px 5px; /* Add some padding so it looks nice */
+
+}
+.button__badge {
+
+  background-color: #fa3e3e;
+
+  border-radius: 2px;
+
+  color: white;
+
+
+  padding: 1px 3px;
+
+  font-size: 10px;
+
+ 
+
+  position: absolute; /* Position the badge within the relatively positioned button */
+
+  top: 0;
+
+  right: 0;
+
+}
+
+.clientTop{
+  height: 58px;
+  border-bottom: 1px solid #b8bec3;
+  margin-bottom: 5%;
+
+}
+
+.class1{
+   background-color: #f00;
+
+}
+
+.class2{
+   background-color: rgb(223, 223, 223);
+
+}
+
+
+.nav{
+  padding: .25rem 1.5rem;
+}
+
+.clientTable{
+margin-top:-3%;
+  border-radius: 8px;
+   box-shadow: 0.5px 0.5px 3px 0px rgb(207, 202, 202);
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 40px;
+  z-index: 1;
+}
+
+/* .clientTableInner{
+  padding:10px;
+} */
+
+
+.row1 {
+  height: 120px;
+
+}
+
+.leftsidelogin{
+    background-image: url('../pics/amsterdam.jpg');
+  background-repeat: no-repeat;
+}
+
+.rightsidelogin{
+  padding-top: 8rem;
+  padding-left: 1rem;
+}
+
+.loginrow{
+  height: 39rem;
+}
+
+
+.container-fluid {
+
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.iconsoverlap{
+  z-index: 2;
+  margin-top: 2.5%;
+  margin-left: 2%;
+
+  padding-top: 20px;
+  padding-left: 6px;
+}
+
+
+.container{
+height: 100%;
+ width: 100%;
+/* align-content: center; */
+margin-left: -1rem; 
+margin-right: -1rem;
+}
+
+.card{
+/* height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color:black !important; */
+  box-shadow: 0.5px 0.5px 3px 0px rgb(207, 202, 202);
+}
+
+  /* .card-header {
+    padding-bottom: 0px;
+  }
+
+.card-header p{
+    margin-bottom: 3px;
+  }
+.card-body {
+  padding-top: 20px;
+} */
+
+{/*
+  //////////////////////// ICONS FOR SOCIAL MEDIA
+  */}
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon .face:hover{
+color:#3578E5;
+cursor: pointer;
+}
+
+.social_icon .goo:hover{
+color:#DB4437;
+cursor: pointer;
+}
+
+.social_icon .twit:hover{
+color:#55acee;
+cursor: pointer;
+}
+
+h1 {
+color: white;
+ align-content: center;
+}
+/* p{
+  color: white;
+  font-size: 12px;
+} */
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.table > thead > tr:first-child > th{
+  border-top: none;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+
+}
+
+.links a{
+margin-left: 63px;
+height: 6px;
+padding-top: 0px;
+}
+
+svg{
+ background-color: white;
+}
+
+.rememberMe{
+  font-size: 15px;
+}
+
+
+
+.validation {
+
+  white-space: -o-pre-wrap; 
+
+}
+/* 
+span {
+
+  display: inline-block;
+
+  font-size: 15px;
+
+}
+
+body {
+
+  background-color: #F5F5F5;
+
+  color: #555;
+
+  font-size: 1.1em;
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+.container {
+
+  margin: 100px auto;
+
+  max-width: 700px;
+
+} */
+.element1 {
+    overflow: hidden;
+
+  display: inline-block;
+
+  background-color: none;
+   margin-left: 0px;
+    margin-top: 12px;
+}
+
+.element {
+
+  width: 25px;
+
+  height: 30px;
+
+  overflow: hidden;
+
+  display: inline-block;
+
+  background-color: none;
+   margin-left: 0px;
+
+  margin-top: 12px;
+
+  /* position: relative;
+
+  margin: 0 auto;
+
+  -webkit-animation-name: bounce;
+
+  animation-name: bounce;
+
+ -webkit-animation-duration: 1.5s, 1.5s;
+
+  animation-duration: 1.5s, 1.5s;
+
+  -webkit-animation-iteration-count: 1;
+
+  animation-iteration-count: 1; */
+
+}
+
+/* @keyframes bounce {
+
+  from {
+
+      top: 8x;
+
+      -webkit-animation-timing-function: ease-out;
+
+      animation-timing-function: ease-out;
+
+  }
+
+  80% {
+
+    top: 0px;
+
+    -webkit-animation-timing-function: ease-in;
+
+    animation-timing-function: ease-in;
+
+}
+
+  90% {
+
+    top: -8px;
+
+    -webkit-animation-timing-function: ease-in;
+
+    animation-timing-function: ease-in;
+
+  }
+
+  95% {
+
+    top: 2px;
+
+    -webkit-animation-timing-function: ease-in;
+
+    animation-timing-function: ease-in;
+
+  }
+
+  to {
+
+      top: -8px;
+
+  }
+
+} */
+
+.icon {
+
+  position: relative;
+
+  overflow: hidden;
+
+   width: 50px;
+
+  height: 55px; 
+
+  display: inline-block;
+
+  /* margin: 25px 0 25px 25px; */
+
+  border-radius: 5px; 
+
+  /* color: #fff; */
+
+  text-decoration: none;
+
+  /* text-align: center; */
+
+  /* line-height: 50px;
+
+  font-size: 12px;
+
+  font-family: sans-serif; */
+
+}
+
+/* .icon:nth-child(1) { background: cornflowerblue; }
+
+.icon:nth-child(2) { background: salmon; }
+
+.icon:nth-child(3) { background: gray; } */
+
+/**
+
+* The "shine" element
+
+*/
+
+.icon:after {
+
+  animation: shine 5s ease-in-out  1;
+
+  animation-fill-mode: forwards; 
+
+  content: "";
+
+  position: absolute;
+
+  top: -110%;
+
+  left: -210%;
+
+  width: 200%;
+
+  height: 200%;
+
+  opacity: 0;
+
+  transform: rotate(30deg);
+
+  /* background: rgba(255, 255, 255, 0.13); */
+
+  background: linear-gradient(
+
+    to right,
+
+    rgba(255, 255, 255, 0.13) 0%,
+
+    rgba(255, 255, 255, 0.13) 77%,
+
+    rgba(255, 255, 255, 0.5) 92%,
+
+    rgba(255, 255, 255, 0.0) 100%
+
+  );
+
+}
+
+/* Hover state - trigger effect */
+
+/* Active state */
+
+ 
+
+.icon:active:after {
+
+  opacity: 0;
+
+}
+
+@keyframes shine{
+
+  10% {
+
+    opacity: 1;
+
+    top: -30%;
+
+    left: -30%;
+
+    transition-property: left, top, opacity;
+
+    transition-duration: 0.7s, 0.7s, 0.15s;
+
+    transition-timing-function: ease;
+
+  }
+
+  100% {
+
+    opacity: 0;
+
+    top: -30%;
+
+    left: -30%;
+
+    transition-property: left, top, opacity;
+
+  }
+
+}
+
+/* https://envato.com/blog/snippets-canvas-svg/ */
+
+/* http://jsfiddle.net/r03gv68x/1/ */
+
+/* http://jsfiddle.net/nqQc7/512/ */
+
+
+
+
+ 
+
+/* basic stylings ------------------------------------------ */
+#inputUp{
+  background-color: #eee;
+  padding-right: 0%;
+}
+
+#navIcons{
+  padding-left: 10%;
+}
+
+input         {
+
+  font-size:18px;
+
+  padding:10px 10px 10px 5px;
+
+  display:block;
+
+  width:200px;
+
+  border:none;
+
+  border-bottom:1px solid #757575;
+
+}
+
+input:focus     { outline:none; }
+
+ 
+
+/* active state */
+
+input:focus ~ label, input:valid ~ label    {
+
+  top:-20px;
+
+  font-size:14px;
+
+  color:#5264AE;
+
+}
+
+ 
+
+/* BOTTOM BARS ================================= */
+
+.bar  { position:relative; display:block; width:200px; }
+
+.bar:before, .bar:after   {
+
+  content:'';
+
+  height:2px;
+
+  width:0;
+
+  bottom:1px;
+
+  position:absolute;
+
+  background:#ffc107;
+
+  transition:0.2s ease all;
+
+  -moz-transition:0.2s ease all;
+
+  -webkit-transition:0.2s ease all;
+
+}
+
+.bar:before {
+
+  left:50%;
+
+
+}
+
+.bar:after {
+
+  right:50%;
+
+}
+
+ 
+
+/* active state */
+
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+
+  width:50%;
+
+}
