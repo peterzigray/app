@@ -103,8 +103,17 @@ class addDebt extends Component {
   //   this.setState({ debtTo: e.target.value})
   // }
   // SET UP PERSON WHO CREATED DEPT
-  onChange3 = (e) => {
-    this.setState({ paidBy: e.target.value })
+//   onChange3 = (e) => {
+//     this.setState({ paidBy: e.target.value })
+//   }
+    onChange3 = (selectedOption, e) => {
+    if(selectedOption[0]){
+      console.log('this is what I wanted')
+      const {id} = selectedOption[0];
+      console.log(id)
+    }
+    
+    //this.setState({ paidBy: e.target.value })
   }
 
   handleChange = (selectedOption, e) => {
@@ -252,7 +261,7 @@ class addDebt extends Component {
                       <select 
                       className="custom-select" 
                       id="inputGroupSelect01"
-                      onChange={this.onChange3} 
+                   //   onChange={this.onChange3} 
                         ref="sStrike2"
                       >
                         <option selected>Choose...</option>
@@ -274,7 +283,16 @@ class addDebt extends Component {
 
                   </div>
 
-                  
+                    <label htmlFor="name">Test</label>
+                    
+                    
+                    <Select
+                     onChange={this.onChange3} 
+                      value={selectedOption}
+                     // onChange={this.handleChange}
+                      options={newar}
+                      multi={!this.state.multi}
+                    />
 
 
 
