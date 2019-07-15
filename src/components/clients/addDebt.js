@@ -204,7 +204,18 @@ class addDebt extends Component {
     const newKeys = { firstName: "label" };
     const copyofUsers = users;
     const userNames = renameKeys(copyofUsers, newKeys);
-  
+    
+     // DESTRACTURING ONLY NAME(LABEL) AND ID
+    var newar = [];
+    userNames.forEach(ar => {
+    let { lastName, email , friends, ...rest } = ar ;
+    newar.push(rest)
+    return newar
+    }
+  )
+  console.log('............')
+  console.log(newar)
+  console.log('............')
 
     const { selectedOption } = this.state;
     return (
